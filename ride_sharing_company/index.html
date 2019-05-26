@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ride Sharing Company</title>
+    <script src="https://api.ravepay.co/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+<body>
+    <div class="form-style-10">
+    <form> 
+        <h1>Welcome to Rave Payment Portal<span>Input your Email and the amount you want to pay</span></h1>
+        <div class="section">Email &amp; Amount</div>
+        <div class="inner-wrap">
+            <label>Email <input type="email" id="mail" required='true'></label>
+            <label>Amount <input type="number" id="amt" required="true"></label>
+        </div>
+        <div>
+            <button type="button" onclick="payWithRave()">Pay Now</button>
+        </div>
+    </form>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
